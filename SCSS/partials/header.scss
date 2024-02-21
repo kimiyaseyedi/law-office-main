@@ -60,6 +60,7 @@ header {
       height: inherit;
       margin-top: 7px;
       position: fixed;
+      z-index: 100;
       cursor: pointer;
       > img {
         width: 90%;
