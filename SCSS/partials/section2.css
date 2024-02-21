@@ -1,0 +1,56 @@
+@media (max-width: 767px) {
+  .section2 {
+    width: 100%;
+    height: auto;
+    background-color: #898d93;
+    margin-top: -40vh; }
+    .section2 > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px 20px 20px;
+      flex-direction: column;
+      color: #fefefe;
+      text-align: center;
+      row-gap: 55px; }
+
+  .section3 {
+    width: 100%;
+    background-color: #54595f;
+    padding: 30px 30px 100px 30px; }
+    .section3 > div {
+      display: flex;
+      row-gap: 10px;
+      flex-direction: column; }
+      .section3 > div blockquote {
+        color: #fefefe;
+        font-size: 13px;
+        font-weight: 500; }
+      .section3 > div > .img {
+        height: 50%;
+        width: 100%; }
+        .section3 > div > .img img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain; }
+    .section3 .services {
+      display: flex;
+      flex-direction: column;
+      row-gap: 50px; }
+      .section3 .services h2 {
+        padding: 60px 0 0 0;
+        font-size: 24px;
+        color: #fefefe;
+        font-weight: 400; }
+      .section3 .services > div {
+        padding: 10px; }
+        .section3 .services > div h3 {
+          font-size: 15px;
+          color: #fefefe; }
+        .section3 .services > div p {
+          margin: 15px 30px 0 0;
+          font-size: 13px;
+          color: #fefefe;
+          font-weight: 500; } }
+
+/*# sourceMappingURL=section2.css.map */
